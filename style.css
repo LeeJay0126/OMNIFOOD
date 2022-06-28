@@ -304,7 +304,7 @@ Small : 0.75px
 }
 
 .meal {
-    box-shadow: 0 2.4rem 4.8rem rgba(0,0,0,0.075);
+    box-shadow: 0 2.4rem 4.8rem rgba(0,0,0,0.2);
     border-radius: 11px;
     overflow:hidden;
 }
