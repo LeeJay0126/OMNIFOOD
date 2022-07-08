@@ -157,6 +157,11 @@ body {
     display: grid;
     row-gap: 6.4rem;
     column-gap: 9.6rem;
+
+}
+
+.grid:not(:last-child){
+    margin-bottom: 9.6rem;
 }
 
 .grid--center-v {
