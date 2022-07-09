@@ -500,3 +500,52 @@ Small : 0.75px
     font-size: 1.8rem;
     line-height: 1.8;
 }
+
+/*******************************************************************/
+/* feature CTA */
+/*******************************************************************/
+
+.section-cta {
+    margin-bottom: 9.6rem;
+}
+
+.cta {
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+    background-image: linear-gradient(to right bottom, #eb984e,#e67e22);
+    box-shadow: 0 2.4rem 4.8rem rgba(0,0,0,0.15);
+    border-radius: 11px;
+    height: 50rem;
+    overflow: hidden;
+}
+
+.cta-img-box {
+    background-image: 
+    linear-gradient(to right bottom, rgb(235, 150, 76, 0.3),
+    rgb(230, 126, 34, 0.3)), url("../content/img/eating.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.cta-text-box {
+    padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+    color: #2e1907;
+}
+
+.cta-text {
+    font-size: 1.8rem;
+    line-height: 1.8;
+    margin-bottom: 4.8rem;
+}
+
+.cta .heading-secondary{
+    color: #2e1907;
+    margin-bottom: 3.2rem;
+}
+
+.cta-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 3.2rem;
+    row-gap: 2.4rem;
+}
