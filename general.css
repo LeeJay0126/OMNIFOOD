@@ -196,6 +196,10 @@ body {
     grid-template-columns: repeat(4, 1fr);
 }
 
+.grid--5-cols {
+    grid-template-columns: repeat(5, 1fr);
+}
+
 strong {
     font-weight: 500;
 }
@@ -224,3 +228,9 @@ strong {
     height: 3rem;
     color: #e67e22;
 }
+
+*:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.8rem rgb(253, 242, 233, 0.5);
+}
+
